@@ -22,12 +22,13 @@
             <version>4.25.0</version>
         </dependency>
 
-        <!-- 1. ВИПРАВЛЕННЯ CDP: Додаємо підтримку DevTools (найвища стабільна версія) -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-devtools-v129</artifactId>
-            <version>4.25.0</version>
-        </dependency>
+      <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter</artifactId>
+        <version>5.9.2</version>
+        <scope>test</scope>
+    </dependency>
+</dependencies>
 
         <!-- 2. ВИПРАВЛЕННЯ SLF4J: Додаємо реалізацію логера -->
         <dependency>
