@@ -28,7 +28,6 @@
         <version>5.9.2</version>
         <scope>test</scope>
     </dependency>
-</dependencies>
 
         <!-- 2. ВИПРАВЛЕННЯ SLF4J: Додаємо реалізацію логера -->
         <dependency>
